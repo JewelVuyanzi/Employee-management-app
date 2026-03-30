@@ -58,3 +58,12 @@ form{
     background-color:pink;
     color: black;
 }
+#details{
+    background-color:darkslategrey;
+}
+#edit{
+    background-color: lightseagreen;
+}
+#del{
+    background-color: chocolate;
+}
