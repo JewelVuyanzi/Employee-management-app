@@ -27,7 +27,7 @@
             <td>+2547</td>
             <td></td>
             <td></td>
-            <td><button>Details</button><button>Edit</button><button>Delete</button></td>
+            <td><button>Details</button>  <button onclick="myFunction">Edit</button>  <button onclick="myNew">Delete</button></td>
         </tr>
         <tr>
             <td>2</td>
@@ -35,7 +35,7 @@
             <td>+2547</td>
             <td></td>
             <td></td>
-            <td><button>Details</button><button>Edit</button><button>Delete</button></td>
+            <td><button>Details</button>  <button onclick="myFunction">Edit</button>  <button onclick="myNew">Delete</button></td>
         </tr>
         <tr>
             <td>3</td>
@@ -43,7 +43,7 @@
             <td>+2547</td>
             <td></td>
             <td></td>
-            <td><button>Details</button><button>Edit</button><button>Delete</button></td>
+            <td><button>Details</button>  <button onclick="myFunction">Edit</button>  <button onclick="myNew">Delete</button></td>
         </tr>
         <tr>
             <td>4</td>
@@ -51,7 +51,7 @@
             <td>+2547</td>
             <td></td>
             <td></td>
-            <td><button>Details</button><button>Edit</button><button>Delete</button></td>
+            <td><button>Details</button>  <button onclick="myFunction">Edit</button>  <button onclick="myNew">Delete</button></td>
         </tr>
         <tr>
             <td>5</td>
@@ -59,10 +59,24 @@
             <td>+2547</td>
             <td></td>
             <td></td>
-            <td><button>Details</button><button>Edit</button><button>Delete</button></td>
+            <td><button>Details</button>  <button onclick="myFunction">Edit</button>  <button onclick="myNew">Delete</button></td>
         </tr>
 
     </table>
+    <script >
+        function myFunction(){
+            alert("Alert!!!");
+        }
+        function myNew(){
+            var txt;
+            if(confirm("Are you sure you want to delete?"))
+        {
+            txt ="YES";
+        }else {
+            txt ="NO";
+        }
+        }
+    </script>
     
 </body>
 </html>
