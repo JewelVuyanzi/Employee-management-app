@@ -48,3 +48,13 @@ a:hover{
     color:black;
     transition:.5s;
 }
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    padding-left: 5%;
+}
+#text{
+    background-color:pink;
+    color: black;
+}
